@@ -38,3 +38,33 @@ body {
 .container .content{
     grid-column: span 2;
 }
+
+.container .sidebar{
+    grid-column: 3 / 4;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-row: span 2;
+}
+
+.container .widget-1,
+.container .widget-2{
+    background-color: violet;
+    color: black;
+    height: 100px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container .footer{
+    background-color: turquoise;
+    grid-column: span 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
